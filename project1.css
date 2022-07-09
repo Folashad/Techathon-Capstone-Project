@@ -1,0 +1,89 @@
+
+html{height: 200%;
+    font-weight: 500, 700, 900;
+    font-family: [Red Hat Display](https://fonts.google.com/specimen/Red+Hat+Display);
+    }
+
+body{height: 100%;
+    flex: content;
+    background-repeat: inherit;
+    background-color: Pale blue: hsl(225, 100%, 94%);
+    background-image: url(images/pattern-background-desktop.svg);
+    background-position: center;
+    text-align: center; 
+    }
+
+.container{height: 40%;
+    display: flex;
+    justify-content: center;
+    margin-top: auto;
+    box-sizing: border-box;
+    background-color: Pale blue: hsl(225, 100%, 94%);
+    background-image:  url(images/pattern-background-desktop.svg);
+    }
+
+p{
+    font-size: 15px;
+    }
+
+
+
+div2 {width: 5px; 
+    height: 100%;
+    padding: 0px;
+    border: 1px; 
+    
+     } 
+
+.hero{
+    width: 100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    }
+/*.intro_image{
+    max-width: 340px;
+
+}*/
+.Features{
+    max-width:  375px;
+    max-height: 100vh;
+    border-radius: 20px;
+    height: 100%;
+    margin: 2%;
+    background-color: white;
+    filter: blur(0.7px);
+    } 
+
+
+.annual_plan{padding: 3%;
+    background-color: white;
+    flex: 30%;
+    display: flex;
+    border: 0;
+    width: 80%;
+    margin: auto;
+    
+    }
+
+button{
+    width: 70%;
+    border: 0;
+    }
+
+.Payment{
+    background-color: blue;
+    border-radius: 7px;
+    color: white;
+    font-size: small;
+    height: 28px;
+
+    }
+
+.cancel{
+    background-color: white;
+    color: rgb(30, 29, 29);
+    font-size: small;
+    
+    }
+.attribution {font-size: 11px; text-align: center;}
+.attribution a { color: hsl(228, 45%, 44%); }
